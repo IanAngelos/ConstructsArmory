@@ -39,7 +39,7 @@ public class ModResistantType extends ArmorModifierTrait {
     private final EnchantmentProtection.Type type;
 
     public ModResistantType(String identifier, int color, EnchantmentProtection.Type type) {
-        super(identifier, color, 8, 0);
+        super(identifier, color, 16, 0);
         this.type = type;
         ListIterator<ModifierAspect> iter = aspects.listIterator();
         while(iter.hasNext()) {
